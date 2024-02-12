@@ -3,7 +3,7 @@ import '@/styles/main.sass';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 
-import App from '@/App.vue';
+import App from '@/components/RootComponent.vue';
 import router from '@/scripts/router';
 
 const APP = createApp(App);
