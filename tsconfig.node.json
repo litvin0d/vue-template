@@ -14,6 +14,7 @@
 	},
 	"include": [
 		"vite.config.*",
+		"project.config.*",
 		"vitest.config.*",
 		"cypress.config.*",
 		"nightwatch.conf.*",
