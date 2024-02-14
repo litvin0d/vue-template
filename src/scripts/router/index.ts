@@ -18,8 +18,7 @@ const router = createRouter({
 });
 
 router.beforeResolve((to, _, next) => {
-	if (to.meta.name)
-		document.title = to.meta.name as string;
+	if (to.meta.name) document.title = to.meta.name as string;
 
 	next();
 });

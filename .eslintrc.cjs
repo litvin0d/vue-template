@@ -50,7 +50,6 @@ module.exports = {
 				'guard-for-in': 'warn',
 				'id-denylist': 'warn',
 				'id-match': 'warn',
-				'init-declarations': 'warn',
 				'logical-assignment-operators': 'warn',
 				'max-classes-per-file': 'warn',
 				'max-depth': 'warn',
@@ -144,6 +143,6 @@ module.exports = {
 				'vars-on-top': 'warn',
 				'yoda': 'warn',
 			},
-		}
+		},
 	],
 };

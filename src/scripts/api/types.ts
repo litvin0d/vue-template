@@ -7,8 +7,8 @@ export interface BaseResponse<T> {
 export interface ErrorResponse {
 	data: null;
 	error: {
-		code: number
-		message: string
+		code: number;
+		message: string;
 	};
 	success: boolean;
 }
