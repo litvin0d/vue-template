@@ -1,16 +1,27 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import type { RouteRecordRaw } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
-import MainView from '@/views/MainView.vue';
+const routes: RouteRecordRaw[] = [
+	{
+		path: '/',
+		name: 'Main',
+		component: () => import('@/views/MainView.vue'),
+		meta: {
+			name: 'Главная',
+		},
+	},
+];
 
 const router = createRouter({
-	history: createWebHistory(import.meta.env.BASE_URL),
-	routes: [
-		{
-			path: '/',
-			name: 'home',
-			component: MainView,
-		},
-	],
+	history: createWebHashHistory(),
+	routes,
+});
+
+router.beforeResolve((to, _, next) => {
+	if (to.meta.name)
+		document.title = to.meta.name as string;
+
+	next();
 });
 
 export default router;

@@ -38,7 +38,6 @@ module.exports = {
 				'complexity': 'warn',
 				'consistent-return': 'warn',
 				'consistent-this': 'warn',
-				'curly': 'warn',
 				'default-case': 'warn',
 				'default-case-last': 'warn',
 				'default-param-last': 'warn',
