@@ -2,6 +2,8 @@
 
 Шаблон предназначен для разработки веб-приложений с использованием [Vite](https://vitejs.dev/) и [Vue 3](https://vuejs.org/).
 
+---
+
 ## 🛠️ Минимальные требования
 
 Для начала работы, убедитесь, что у вас установлены следующие компоненты:
@@ -14,6 +16,8 @@
     - [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+---
 
 ## 🚀 Начало работы
 
@@ -102,6 +106,8 @@ npm run format
 yarn format
 bun run format
 ```
+
+---
 
 ## 🔧 Используемые технологии
 
